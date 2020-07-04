@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "java-infra-dev-backend" {
-  bucket = "joebadmus-dev-s3-backend"
+  bucket = "joebadmus-proj2-dev-backend"
 
   versioning {
     enabled = true

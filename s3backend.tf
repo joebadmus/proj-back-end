@@ -3,8 +3,8 @@ provider "aws" {
   region = "eu-west-2"
 }
 
-resource "aws_s3_bucket" "java-infra-dev-backend" {
-  bucket = "joebadmus-proj2-dev-backend"
+resource "aws_s3_bucket" "infra-dev-backend" {
+  bucket = "joebadmus-proj-dev-backend"
 
   versioning {
     enabled = true

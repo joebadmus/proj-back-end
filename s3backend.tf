@@ -1,21 +1,21 @@
 
-provider "aws" {
-  region = "eu-west-2"
-}
+# provider "aws" {
+#   region = "eu-west-2"
+# }
 
-resource "aws_s3_bucket" "infra-dev-backend" {
-  bucket = "joebadmus-proj-dev-backend"
+# resource "aws_s3_bucket" "infra-dev-backend" {
+#   bucket = "joebadmus-proj-dev-backend"
 
-  versioning {
-    enabled = true
-  }
+#   versioning {
+#     enabled = true
+#   }
 
-  lifecycle {
-    prevent_destroy = true
-  }
+#   lifecycle {
+#     prevent_destroy = true
+#   }
 
-  tags = {
-    Name        = "My bucket"
-    Environment = "Dev"
-  }
-}
+#   tags = {
+#     Name        = "My bucket"
+#     Environment = "Dev"
+#   }
+# }

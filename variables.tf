@@ -38,15 +38,15 @@ variable "instance_type" {
 
 variable "ami" {
   description = "Amazon Linux AMI"
-  default     = "ami-05f37c3995fffb4fd"
+  default     = "ami-0a669382ea0feb73a"
 }
 
 variable "key_name" {
-  default = "proj-west-2-key"
+  default = "demo"
 }
 
 variable "author" {
-  default     = "Joebadmus"
+  default     = "JoeB"
   description = "Name of Author"
 }
 
